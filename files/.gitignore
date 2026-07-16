@@ -1,0 +1,24 @@
+# ---- Secrets & credentials (NEVER commit these) ----
+*.csv
+*.pem
+.env
+.env.*
+credentials
+aws-credentials*
+*accessKeys*
+
+# ---- OS / editor junk ----
+.DS_Store
+Thumbs.db
+.vscode/
+*.log
+
+# ---- Python (for the backend later) ----
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# ---- Build / deploy artifacts ----
+.aws-sam/
+node_modules/

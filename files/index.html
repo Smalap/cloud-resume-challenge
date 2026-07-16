@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shivam Malap — Cloud &amp; Software Developer</title>
+  <meta name="description" content="Shivam Malap — Cloud &amp; Software Developer. Oracle Cloud certified, Azure & AWS experience, serverless and cross-platform development." />
+
+  <!-- Fonts: Space Grotesk (display), Inter (body), JetBrains Mono (console/data) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- ============================================================
+       STATUS BAR  — console-style metadata line
+       ============================================================ -->
+  <div class="statusbar" aria-hidden="true">
+    <span class="statusbar__item">📍 Pune, India</span>
+    <span class="statusbar__dot">·</span>
+    <span class="statusbar__item">region: ap-south-1</span>
+    <span class="statusbar__item statusbar__status">
+      <span class="live-dot"></span> open to cloud &amp; devops roles
+    </span>
+  </div>
+
+  <main class="wrap">
+
+    <!-- ============================================================
+         HERO
+         ============================================================ -->
+    <header class="hero">
+      <p class="eyebrow">Cloud &amp; Software Developer</p>
+      <h1 class="hero__name">Shivam&nbsp;Malap</h1>
+
+      <p class="hero__summary">
+        Electronics &amp; Telecommunication Engineering student building on the cloud.
+        I design serverless, event-driven systems and ship cross-platform apps —
+        currently a Cloud Engineer Intern deploying Azure infrastructure that serves
+        <strong>5,000+ concurrent users at 99% uptime</strong>. Oracle Cloud Infrastructure
+        2025 Certified Developer Professional.
+      </p>
+
+      <!-- Contact links -->
+      <nav class="contacts" aria-label="Contact">
+        <a class="contacts__link" href="mailto:shivamsmalap.rmdstic.entc@gmail.com">Email</a>
+        <a class="contacts__link" href="https://linkedin.com/in/shivammalap" target="_blank" rel="noopener">LinkedIn</a>
+        <a class="contacts__link" href="https://github.com/Smalap" target="_blank" rel="noopener">GitHub</a>
+        <!-- Want your phone public? Uncomment the next line:
+        <a class="contacts__link" href="tel:+918668584818">+91 8668584818</a>
+        -->
+      </nav>
+
+      <!-- ==========================================================
+           SIGNATURE ELEMENT — live visitor telemetry
+           Wired to your API in Phase 8. See script.js.
+           ========================================================== -->
+      <div class="telemetry" role="status" aria-live="polite">
+        <span class="telemetry__label">site visitors</span>
+        <span class="telemetry__count" id="visitor-count">——</span>
+        <span class="telemetry__badge"><span class="live-dot"></span>live</span>
+      </div>
+    </header>
+
+    <!-- ============================================================
+         EXPERIENCE
+         ============================================================ -->
+    <section class="section" aria-labelledby="exp-h">
+      <h2 class="section__title" id="exp-h"><span class="tick"></span>Experience</h2>
+
+      <ol class="timeline">
+        <li class="entry">
+          <div class="entry__head">
+            <h3 class="entry__role">Cloud Engineer Intern</h3>
+            <span class="entry__meta">Jan 2026 – Apr 2026</span>
+          </div>
+          <p class="entry__org">Dava Infotech Pvt. Ltd. · <span class="entry__project">DavaTrade — cross-platform trading app on Microsoft Azure</span></p>
+          <ul class="bullets">
+            <li>Architected and deployed scalable backend infrastructure on Azure (Azure SQL, Functions, Storage Account, Notification Hub, Application Insights) supporting <strong>5,000+ concurrent users at 99% uptime</strong>.</li>
+            <li>Optimized Azure SQL performance by <strong>30%</strong> through query tuning and indexing, and cut cloud costs <strong>20–25%</strong> via resource scaling and right-sizing.</li>
+            <li>Engineered secure, event-driven backend pipelines with Azure Functions on .NET 8 and Microsoft Entra ID authentication.</li>
+            <li>Built responsive Flutter / Dart interfaces across 8 screens, integrated with REST APIs for live data exchange.</li>
+            <li>Integrated push notifications and centralized monitoring — cutting incident resolution time <strong>40%</strong> — and automated sync between the TradePlus legacy desktop software and the mobile app.</li>
+          </ul>
+        </li>
+
+        <li class="entry">
+          <div class="entry__head">
+            <h3 class="entry__role">Artificial Intelligence Intern</h3>
+            <span class="entry__meta">May 2026 – Present</span>
+          </div>
+          <p class="entry__org">iStudio</p>
+          <ul class="bullets">
+            <li>Selected through the competitive iCAT aptitude test for a one-month AI/ML internship.</li>
+            <li>Trained and evaluated machine learning models on real datasets, applying data preprocessing and feature engineering in Python to improve model accuracy.</li>
+          </ul>
+        </li>
+      </ol>
+    </section>
+
+    <!-- ============================================================
+         PROJECTS
+         ============================================================ -->
+    <section class="section" aria-labelledby="proj-h">
+      <h2 class="section__title" id="proj-h"><span class="tick"></span>Projects</h2>
+
+      <article class="card">
+        <div class="entry__head">
+          <h3 class="entry__role">Railway Ticket Booking Chatbot <span class="mono-tag">IRCTCBot</span></h3>
+          <span class="entry__meta">Jun 2025 – Jul 2025</span>
+        </div>
+        <p class="entry__org">Serverless · Amazon Web Services</p>
+        <ul class="bullets">
+          <li>Designed and deployed a serverless railway booking chatbot on AWS with Amazon Lex — 4 core intents (book, Tatkal, status, cancel) plus a fallback for unrecognized inputs.</li>
+          <li>Built 2 AWS Lambda functions in Python 3.12 for booking and status logic, integrated with Amazon DynamoDB using the PNR as the partition key for instant storage and retrieval.</li>
+          <li>Configured IAM roles with least-privilege policies and validated end-to-end booking, status, and cancellation flows with automated refund confirmation.</li>
+        </ul>
+        <div class="chips">
+          <span class="chip">Amazon Lex</span>
+          <span class="chip">AWS Lambda</span>
+          <span class="chip">DynamoDB</span>
+          <span class="chip">Python 3.12</span>
+          <span class="chip">IAM</span>
+        </div>
+      </article>
+    </section>
+
+    <!-- ============================================================
+         SKILLS
+         ============================================================ -->
+    <section class="section" aria-labelledby="skills-h">
+      <h2 class="section__title" id="skills-h"><span class="tick"></span>Technical Skills</h2>
+
+      <div class="skills">
+        <div class="skills__group">
+          <p class="skills__label">Cloud Platforms</p>
+          <p class="skills__list">Microsoft Azure (Azure SQL, Functions, Storage, Notification Hub, Application Insights, Entra ID) · Amazon Web Services · Oracle Cloud Infrastructure</p>
+        </div>
+        <div class="skills__group">
+          <p class="skills__label">Languages</p>
+          <p class="skills__list">Python · Dart · SQL · C++</p>
+        </div>
+        <div class="skills__group">
+          <p class="skills__label">Frameworks</p>
+          <p class="skills__list">Flutter · .NET 8 · REST APIs · Serverless Architecture</p>
+        </div>
+        <div class="skills__group">
+          <p class="skills__label">Tools &amp; Databases</p>
+          <p class="skills__list">Git · GitHub · CI/CD Pipelines · Power BI · Azure SQL · MySQL · Firebase</p>
+        </div>
+        <div class="skills__group">
+          <p class="skills__label">Concepts</p>
+          <p class="skills__list">Cloud-Native Development · Database &amp; Cost Optimization · Event-Driven Systems · Authentication &amp; Security</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         EDUCATION + CERTIFICATIONS  (two columns)
+         ============================================================ -->
+    <div class="split">
+      <section class="section" aria-labelledby="edu-h">
+        <h2 class="section__title" id="edu-h"><span class="tick"></span>Education</h2>
+        <div class="entry">
+          <div class="entry__head">
+            <h3 class="entry__role">B.E. Electronics &amp; Telecommunication</h3>
+            <span class="entry__meta">2023 – 2027</span>
+          </div>
+          <p class="entry__org">RMD Sinhgad College of Engineering, Pune</p>
+          <p class="entry__note">CGPA 7.68 / 10</p>
+        </div>
+      </section>
+
+      <section class="section" aria-labelledby="cert-h">
+        <h2 class="section__title" id="cert-h"><span class="tick"></span>Certifications</h2>
+        <ul class="certs">
+          <li><strong>Oracle Cloud Infrastructure 2025 Certified Developer Professional</strong> — Oracle <span class="entry__note">(valid through Oct 2027)</span></li>
+          <li>Cloud Computing Training — Acmegrade × IIT Delhi Rendezvous</li>
+          <li>Introduction to Artificial Intelligence — Infosys Springboard</li>
+          <li>Introduction to Cloud Security — Simplilearn</li>
+          <li>Power BI for Data Analysis — Vodafone Idea Foundation</li>
+        </ul>
+      </section>
+    </div>
+
+    <!-- ============================================================
+         LEADERSHIP
+         ============================================================ -->
+    <section class="section" aria-labelledby="lead-h">
+      <h2 class="section__title" id="lead-h"><span class="tick"></span>Leadership</h2>
+      <div class="skills">
+        <div class="skills__group">
+          <p class="skills__label">Training &amp; Placement Coordinator</p>
+          <p class="skills__list">RMD Sinhgad School of Engineering — liaised with recruiters, organized pre-placement training, and ran mock interviews.</p>
+        </div>
+        <div class="skills__group">
+          <p class="skills__label">Treasurer — Arts &amp; Culture Committee</p>
+          <p class="skills__list">RMD Sinhgad School of Engineering — managed budgeting and financial reporting for college events.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         FOOTER
+         ============================================================ -->
+    <footer class="foot">
+      <span class="foot__mono">built &amp; deployed on AWS · S3 · CloudFront · Lambda · DynamoDB</span>
+      <span class="foot__year">© 2026 Shivam Malap</span>
+    </footer>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
