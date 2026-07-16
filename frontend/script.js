@@ -10,7 +10,7 @@
    serverless backend. Nothing else here needs to change.
    ============================================================ */
 
-const API_URL = ""; // e.g. "https://abc123.execute-api.us-east-1.amazonaws.com/count"
+const API_URL = "https://0zotppc6uh.execute-api.us-east-1.amazonaws.com/count"; // e.g. "https://abc123.execute-api.us-east-1.amazonaws.com/count"
 
 const countEl = document.getElementById("visitor-count");
 
