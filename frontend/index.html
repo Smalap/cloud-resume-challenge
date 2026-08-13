@@ -4,9 +4,8 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Shivam Malap — Cloud &amp; Software Developer</title>
-  <meta name="description" content="Shivam Malap — Cloud &amp; Software Developer. Azure, AWS, serverless, Flutter. OCI 2025 Certified. Portfolio deployed on the AWS stack it describes." />
+  <meta name="description" content="Shivam Malap — Cloud &amp; Software Developer. Azure, AWS, serverless, Flutter. OCI 2025 Certified. This portfolio is a serverless AWS application." />
 
-  <!-- Fonts: Space Grotesk (display), Inter (body), JetBrains Mono (console/data) -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet" />
@@ -15,16 +14,13 @@
 </head>
 <body>
 
-  <!-- Ambient background: grid + glows (decorative only) -->
   <div class="bg" aria-hidden="true">
     <div class="bg__grid"></div>
     <div class="bg__glow bg__glow--gold"></div>
     <div class="bg__glow bg__glow--indigo"></div>
   </div>
 
-  <!-- ============================================================
-       NAV
-       ============================================================ -->
+  <!-- NAV -->
   <header class="nav">
     <a class="nav__logo" href="#top">SM<span class="nav__dot">.</span></a>
     <nav class="nav__links" aria-label="Sections">
@@ -40,35 +36,32 @@
 
   <main id="top">
 
-    <!-- ==========================================================
-         HERO
-         ========================================================== -->
+    <!-- HERO -->
     <section class="hero">
-      <p class="hero__eyebrow reveal">// cloud &amp; software developer — pune, india</p>
+      <div class="hero__main">
+        <div class="hero__content">
+          <p class="hero__eyebrow reveal">// cloud &amp; software developer — pune, india</p>
+          <h1 class="hero__name reveal">Shivam<br />Malap</h1>
+          <p class="hero__roles reveal">I build with <span class="hero__rotator" id="role-rotator">serverless architecture</span></p>
+          <p class="hero__summary reveal">
+            Electronics &amp; Telecommunication engineering student shipping real cloud systems —
+            Azure infrastructure serving <strong>5,000+ concurrent users at 99% uptime</strong>,
+            five serverless projects on AWS, and cross-platform Flutter builds.
+            Oracle Cloud Infrastructure 2025 Certified Developer Professional.
+          </p>
+          <div class="hero__cta reveal">
+            <a class="btn btn--gold" href="#projects">View projects</a>
+            <a class="btn btn--ghost" href="#contact">Get in touch</a>
+          </div>
+        </div>
 
-      <h1 class="hero__name reveal">Shivam<br />Malap</h1>
-
-      <p class="hero__roles reveal" aria-live="off">
-        I build with <span class="hero__rotator" id="role-rotator">serverless architecture</span>
-      </p>
-
-      <p class="hero__summary reveal">
-        Electronics &amp; Telecommunication engineering student shipping real cloud systems —
-        Azure infrastructure serving <strong>5,000+ concurrent users at 99% uptime</strong>,
-        serverless apps on AWS, and cross-platform Flutter builds.
-        Oracle Cloud Infrastructure 2025 Certified Developer Professional.
-      </p>
-
-      <div class="hero__cta reveal">
-        <a class="btn btn--gold" href="#projects">View projects</a>
-        <a class="btn btn--ghost" href="#contact">Get in touch</a>
+        <figure class="hero__photo reveal">
+          <img src="profile.jpeg" alt="Shivam Malap" width="800" height="1066" />
+          <figcaption class="hero__photo-tag">Shivam Malap</figcaption>
+        </figure>
       </div>
 
-      <!-- ========================================================
-           SIGNATURE — live telemetry.
-           This number is real: served by API Gateway → Lambda →
-           DynamoDB, the backend documented in Projects below.
-           ======================================================== -->
+      <!-- SIGNATURE: live telemetry -->
       <div class="telemetry reveal" role="status" aria-live="polite">
         <div class="telemetry__row">
           <span class="telemetry__label">site visitors</span>
@@ -79,27 +72,23 @@
       </div>
     </section>
 
-    <!-- ==========================================================
-         ABOUT + STATS
-         ========================================================== -->
+    <!-- ABOUT + STATS -->
     <section class="section" id="about">
       <h2 class="section__title reveal"><span class="tick"></span>About</h2>
-
       <div class="about">
         <div class="about__text reveal">
           <p>
-            I'm a B.E. student at RMD Sinhgad College of Engineering (CGPA 8.0, class of 2027)
-            who learns by deploying. As a Cloud Engineer Intern at Dava Infotech I architected
-            production Azure infrastructure; as an AI Intern at iStudio I built a face-recognition
-            system from the linear algebra up. This portfolio itself is a serverless AWS
-            application — S3, CloudFront, API Gateway, Lambda, DynamoDB — deployed automatically
-            by a GitHub Actions pipeline on every push.
+            I'm a B.E. student at RMD Sinhgad College of Engineering (CGPA 7.66, class of 2027)
+            who learns by shipping. As a Cloud Engineer Intern at Dava Infotech I built and
+            deployed production Azure infrastructure behind a real product; on my own I've shipped
+            five cloud projects across serverless compute, CI/CD, and machine learning.
           </p>
           <p>
+            This portfolio itself is a serverless AWS application — S3, CloudFront, API Gateway,
+            Lambda, and DynamoDB — deployed automatically by a GitHub Actions pipeline on every push.
             I'm looking for roles in cloud engineering, DevOps, and cloud-native development.
           </p>
         </div>
-
         <div class="stats">
           <div class="stat reveal">
             <span class="stat__num" data-count="5000" data-suffix="+">0</span>
@@ -114,39 +103,35 @@
             <span class="stat__label">database performance improvement</span>
           </div>
           <div class="stat reveal">
-            <span class="stat__num" data-count="25" data-suffix="%">0</span>
-            <span class="stat__label">cloud cost reduction via right-sizing</span>
+            <span class="stat__num" data-count="5" data-suffix="">0</span>
+            <span class="stat__label">cloud projects shipped end-to-end</span>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- ==========================================================
-         SKILLS
-         ========================================================== -->
+    <!-- SKILLS -->
     <section class="section" id="skills">
       <h2 class="section__title reveal"><span class="tick"></span>Skills</h2>
-
       <div class="skills">
         <div class="skills__group reveal">
-          <h3 class="skills__name">Cloud platforms</h3>
+          <h3 class="skills__name">Cloud &amp; AWS</h3>
           <div class="chips">
             <span class="chip">Microsoft Azure</span>
-            <span class="chip">Azure SQL</span>
-            <span class="chip">Azure Functions</span>
-            <span class="chip">Entra ID</span>
             <span class="chip">AWS</span>
+            <span class="chip">Oracle Cloud (OCI)</span>
             <span class="chip">Lambda</span>
-            <span class="chip">DynamoDB</span>
             <span class="chip">S3</span>
             <span class="chip">CloudFront</span>
             <span class="chip">API Gateway</span>
-            <span class="chip">Amazon Lex</span>
+            <span class="chip">DynamoDB</span>
+            <span class="chip">EC2</span>
+            <span class="chip">CodePipeline</span>
+            <span class="chip">CloudWatch</span>
             <span class="chip">IAM</span>
-            <span class="chip">Oracle Cloud (OCI)</span>
+            <span class="chip">Amazon Lex</span>
           </div>
         </div>
-
         <div class="skills__group reveal">
           <h3 class="skills__name">Languages</h3>
           <div class="chips">
@@ -154,56 +139,54 @@
             <span class="chip">Dart</span>
             <span class="chip">SQL</span>
             <span class="chip">C++</span>
-            <span class="chip">C</span>
             <span class="chip">Java</span>
+            <span class="chip">HTML</span>
           </div>
         </div>
-
         <div class="skills__group reveal">
-          <h3 class="skills__name">Frameworks &amp; concepts</h3>
+          <h3 class="skills__name">Frameworks &amp; libraries</h3>
           <div class="chips">
             <span class="chip">Flutter</span>
             <span class="chip">.NET 8</span>
             <span class="chip">REST APIs</span>
+            <span class="chip">NumPy</span>
             <span class="chip">Serverless architecture</span>
-            <span class="chip">Event-driven systems</span>
-            <span class="chip">NumPy / Pandas</span>
-            <span class="chip">Scikit-learn</span>
           </div>
         </div>
-
         <div class="skills__group reveal">
-          <h3 class="skills__name">Tools</h3>
+          <h3 class="skills__name">Databases</h3>
+          <div class="chips">
+            <span class="chip">Azure SQL</span>
+            <span class="chip">MySQL</span>
+            <span class="chip">DynamoDB</span>
+          </div>
+        </div>
+        <div class="skills__group reveal">
+          <h3 class="skills__name">Tools &amp; DevOps</h3>
           <div class="chips">
             <span class="chip">Git &amp; GitHub</span>
             <span class="chip">GitHub Actions</span>
             <span class="chip">CI/CD pipelines</span>
             <span class="chip">Power BI</span>
-            <span class="chip">MySQL</span>
-            <span class="chip">Firebase</span>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- ==========================================================
-         EXPERIENCE  (timeline — years carry the order)
-         ========================================================== -->
+    <!-- EXPERIENCE -->
     <section class="section" id="experience">
       <h2 class="section__title reveal"><span class="tick"></span>Experience</h2>
-
       <ol class="timeline">
         <li class="entry reveal">
           <div class="entry__head">
             <h3 class="entry__role">Cloud Engineer Intern</h3>
             <span class="entry__meta">Jan – Apr 2026</span>
           </div>
-          <p class="entry__org">Dava Infotech Pvt. Ltd. · <span class="entry__project">DavaTrade — cross-platform trading app on Microsoft Azure</span></p>
+          <p class="entry__org">Dava Infotech Pvt. Ltd. · <span class="entry__project">DavaTrade — mobile platform for a legacy Windows pharmacy system</span></p>
           <ul class="bullets">
-            <li>Architected and deployed scalable backend infrastructure on Azure (Azure SQL, Functions, Storage Account, Notification Hub, Application Insights) supporting <strong>5,000+ concurrent users at 99% uptime</strong>.</li>
-            <li>Optimized Azure SQL performance by <strong>30%</strong> through query tuning and indexing; cut cloud costs <strong>20–25%</strong> via resource scaling and right-sizing.</li>
-            <li>Engineered secure, event-driven backend pipelines with Azure Functions on .NET 8 and Microsoft Entra ID authentication.</li>
-            <li>Built responsive Flutter / Dart interfaces across 8 screens, integrated with REST APIs; cut incident resolution time <strong>40%</strong> with centralized monitoring, and automated sync with the TradePlus legacy desktop software.</li>
+            <li>Built <strong>DavaTrade</strong>, a Flutter mobile app extending a legacy Windows pharmacy system to mobile — consuming REST APIs on Azure Functions (.NET 8) with a multi-tenant SQL architecture for real-time sales, purchase, and inventory tracking.</li>
+            <li>Integrated Firebase Cloud Messaging for push notifications and Razorpay for secure in-app payments, enabling real-time alerts and seamless subscription management.</li>
+            <li>Deployed and optimized the scalable Azure backend (Azure SQL, Functions, Application Insights) — supporting <strong>5,000+ concurrent users at 99%+ uptime</strong> and improving database performance by <strong>30%</strong>.</li>
           </ul>
         </li>
 
@@ -212,33 +195,28 @@
             <h3 class="entry__role">Artificial Intelligence Intern</h3>
             <span class="entry__meta">Jan – Feb 2026</span>
           </div>
-          <p class="entry__org">iStudio · <span class="entry__project">selected via the competitive iCAT aptitude test</span></p>
+          <p class="entry__org">iStudio · <span class="entry__project">selected via the competitive iCAT aptitude test · Hybrid</span></p>
           <ul class="bullets">
-            <li>Worked across the full ML lifecycle — preprocessing, feature engineering, training, and evaluation — with Python, NumPy, Pandas, and Scikit-learn.</li>
-            <li>Built a PCA + LDA + ANN face-recognition system, implementing the Eigenfaces algorithm from scratch and lifting test accuracy from <strong>45.6% to 77.2%</strong>.</li>
+            <li>Completed a one-month AI internship working across the ML lifecycle — model training, data preprocessing, and real-world AI application development.</li>
+            <li>Built a PCA + LDA + ANN face-recognition system, implementing the Eigenfaces stage from scratch in NumPy and lifting test accuracy on unseen faces from <strong>45.6% to 77.2%</strong>.</li>
           </ul>
         </li>
       </ol>
     </section>
 
-    <!-- ==========================================================
-         PROJECTS
-         ========================================================== -->
+    <!-- PROJECTS -->
     <section class="section" id="projects">
       <h2 class="section__title reveal"><span class="tick"></span>Projects</h2>
-
       <div class="cards">
 
-        <!-- Featured: the project you are standing inside -->
         <article class="card card--featured reveal">
           <p class="card__flag">you are here — this site is the project</p>
           <h3 class="card__title">Cloud Resume Challenge</h3>
           <p class="card__desc">
             A serverless resume-and-portfolio application on AWS. Static site on S3 behind
             CloudFront (global CDN, HTTPS); a live visitor counter through API Gateway,
-            Lambda (Python), and DynamoDB; least-privilege IAM roles scoped per service;
-            and a GitHub Actions CI/CD pipeline that ships every push to production with
-            zero manual steps.
+            Lambda (Python), and DynamoDB; least-privilege IAM per service; and a GitHub Actions
+            CI/CD pipeline that ships every push to production with zero manual steps.
           </p>
           <div class="chips">
             <span class="chip">S3</span><span class="chip">CloudFront</span>
@@ -253,13 +231,45 @@
         </article>
 
         <article class="card reveal">
+          <h3 class="card__title">Serverless Image Processing Pipeline</h3>
+          <p class="card__desc">
+            An S3-triggered Lambda pipeline (Python + Pillow) that automatically resizes and
+            compresses uploaded images by ≈98%. Enforced least-privilege IAM, CloudWatch alarms,
+            and GitHub Actions CI/CD that deploys via OIDC — no static AWS keys stored anywhere.
+          </p>
+          <div class="chips">
+            <span class="chip">S3</span><span class="chip">Lambda</span>
+            <span class="chip">Python + Pillow</span><span class="chip">CloudWatch</span>
+            <span class="chip">IAM</span><span class="chip">GitHub Actions (OIDC)</span>
+          </div>
+          <div class="card__links">
+            <a class="btn btn--ghost btn--sm" href="https://github.com/Smalap/aws-image-processing" target="_blank" rel="noopener">GitHub ↗</a>
+          </div>
+        </article>
+
+        <article class="card reveal">
+          <h3 class="card__title">CI/CD Pipeline on AWS</h3>
+          <p class="card__desc">
+            An automated build–test–deploy pipeline: every push to main goes live on an EC2
+            (Apache) instance in ~60 seconds with zero manual steps. Deployed via SSM Run Command
+            with S3 staging; CloudWatch alarms trigger SNS email alerts on failed builds.
+          </p>
+          <div class="chips">
+            <span class="chip">CodePipeline</span><span class="chip">CodeBuild</span>
+            <span class="chip">EC2</span><span class="chip">S3</span>
+            <span class="chip">SSM</span><span class="chip">CloudWatch + SNS</span>
+          </div>
+          <div class="card__links">
+            <a class="btn btn--ghost btn--sm" href="https://github.com/Smalap/cicd-pipeline" target="_blank" rel="noopener">GitHub ↗</a>
+          </div>
+        </article>
+
+        <article class="card reveal">
           <h3 class="card__title">Railway Ticket Booking Chatbot <span class="mono-tag">IRCTCBot</span></h3>
           <p class="card__desc">
-            Serverless booking chatbot on AWS with Amazon Lex — 4 core intents (general,
-            Tatkal, status, cancel) plus fallback. Two Python 3.12 Lambda functions handle
-            booking and status logic against DynamoDB, with PNR as the partition key and
-            least-privilege IAM between services. Validated end-to-end flows including
-            automated refund confirmation.
+            A serverless booking chatbot on AWS with Amazon Lex — ticket booking, Tatkal booking,
+            status checks, and cancellation. Two Python 3.12 Lambda functions handle booking and
+            status logic against DynamoDB (keyed on PNR), secured with least-privilege IAM roles.
           </p>
           <div class="chips">
             <span class="chip">Amazon Lex</span><span class="chip">Lambda</span>
@@ -267,18 +277,16 @@
             <span class="chip">IAM</span>
           </div>
           <div class="card__links">
-            <!-- TODO: replace with the IRCTCBot repo URL when it's on GitHub -->
-            <a class="btn btn--ghost btn--sm" href="https://github.com/Smalap" target="_blank" rel="noopener">GitHub ↗</a>
+            <a class="btn btn--ghost btn--sm" href="https://github.com/Smalap/irctc-lex-chatbot" target="_blank" rel="noopener">GitHub ↗</a>
           </div>
         </article>
 
         <article class="card reveal">
           <h3 class="card__title">Face Recognition System <span class="mono-tag">PCA · LDA · ANN</span></h3>
           <p class="card__desc">
-            Implemented the Eigenfaces (PCA) algorithm from scratch in NumPy to reduce image
-            dimensionality, added LDA-based feature extraction, and trained an ANN classifier.
-            Systematic standardization and hyperparameter tuning lifted accuracy on unseen
-            test images from 45.6% to <strong>77.2%</strong> — a 31.6-point gain.
+            Implemented the Eigenfaces (PCA) algorithm from scratch in NumPy, combined with LDA
+            feature extraction and an ANN classifier. Systematic standardization and eigenface
+            tuning raised accuracy on unseen faces from 45.6% to <strong>77.2%</strong>.
           </p>
           <div class="chips">
             <span class="chip">Python</span><span class="chip">NumPy</span>
@@ -286,28 +294,36 @@
             <span class="chip">Neural networks</span>
           </div>
           <div class="card__links">
-            <!-- TODO: replace with the Face Recognition repo URL when it's on GitHub -->
-            <a class="btn btn--ghost btn--sm" href="https://github.com/Smalap" target="_blank" rel="noopener">GitHub ↗</a>
+            <a class="btn btn--ghost btn--sm" href="https://github.com/Smalap/pca-ann-face-recognition" target="_blank" rel="noopener">GitHub ↗</a>
           </div>
         </article>
 
       </div>
     </section>
 
-    <!-- ==========================================================
-         CERTIFICATIONS
-         ========================================================== -->
+    <!-- CERTIFICATIONS -->
     <section class="section" id="certs">
       <h2 class="section__title reveal"><span class="tick"></span>Certifications</h2>
-
       <ul class="certs">
         <li class="cert cert--major reveal">
           <span class="cert__name">Oracle Cloud Infrastructure 2025 Certified Developer Professional</span>
           <span class="cert__org">Oracle · Oct 2025 · valid through Oct 2027</span>
         </li>
         <li class="cert reveal">
-          <span class="cert__name">DSA for DeepTech Bootcamp</span>
-          <span class="cert__org">Brainovision × NASSCOM × AICTE · May 2026</span>
+          <span class="cert__name">Data Analytics Essentials</span>
+          <span class="cert__org">Cisco Networking Academy · Aug 2026</span>
+        </li>
+        <li class="cert reveal">
+          <span class="cert__name">TCS iON Career Edge — AI Foundation</span>
+          <span class="cert__org">TCS iON · Jul 2026</span>
+        </li>
+        <li class="cert reveal">
+          <span class="cert__name">Copado Certified — Copado AI</span>
+          <span class="cert__org">Copado · Jul 2026</span>
+        </li>
+        <li class="cert reveal">
+          <span class="cert__name">GenAI-Powered Data Analytics Job Simulation</span>
+          <span class="cert__org">Tata · Forage · Jul 2026</span>
         </li>
         <li class="cert reveal">
           <span class="cert__name">Cloud Computing Training</span>
@@ -328,43 +344,29 @@
       </ul>
     </section>
 
-    <!-- ==========================================================
-         LEADERSHIP & ACTIVITIES
-         ========================================================== -->
+    <!-- LEADERSHIP -->
     <section class="section" id="leadership">
-      <h2 class="section__title reveal"><span class="tick"></span>Leadership &amp; activities</h2>
-
+      <h2 class="section__title reveal"><span class="tick"></span>Leadership</h2>
       <div class="lead">
         <div class="lead__item reveal">
           <h3 class="lead__role">Training &amp; Placement Coordinator</h3>
-          <p class="lead__desc">RMD Sinhgad SOE · Feb 2026 – present — recruiter liaison, pre-placement training, mock interviews.</p>
+          <p class="lead__desc">RMD Sinhgad SOE · Feb 2026 – present — recruiter liaison and placement training.</p>
         </div>
         <div class="lead__item reveal">
-          <h3 class="lead__role">Treasurer — Arts &amp; Culture Committee</h3>
-          <p class="lead__desc">RMD Sinhgad SOE · Dec 2025 – present — budgeting and financial reporting for college events.</p>
-        </div>
-        <div class="lead__item reveal">
-          <h3 class="lead__role">Cognizant Technoverse Hackathon 2026</h3>
-          <p class="lead__desc">Team participant — collaborative problem-solving on real-world technology challenges.</p>
+          <h3 class="lead__role">Treasurer — Arts &amp; Culture Committee (EWORTS)</h3>
+          <p class="lead__desc">RMD Sinhgad SOE · Dec 2025 – present — budgeting and financial reporting.</p>
         </div>
       </div>
     </section>
 
-    <!-- ==========================================================
-         CONTACT
-         ========================================================== -->
+    <!-- CONTACT -->
     <section class="section section--contact" id="contact">
       <h2 class="section__title reveal"><span class="tick"></span>Contact</h2>
-
       <p class="contact__line reveal">Have a role, a project, or a question about how this site works under the hood?</p>
-
       <div class="contact__actions reveal">
         <a class="btn btn--gold" href="mailto:shivamsmalap.rmdstic.entc@gmail.com">Email me</a>
         <a class="btn btn--ghost" href="https://linkedin.com/in/shivammalap" target="_blank" rel="noopener">LinkedIn</a>
         <a class="btn btn--ghost" href="https://github.com/Smalap" target="_blank" rel="noopener">GitHub</a>
-        <!-- Want your phone public? Uncomment:
-        <a class="btn btn--ghost" href="tel:+918668584818">+91 8668584818</a>
-        -->
       </div>
     </section>
 
